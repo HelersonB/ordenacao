@@ -12,3 +12,7 @@
 ### selection_sort --> Algoritmo de ordenação por seleção
    O algoritmo de ordenação por seleção (selection sort) percorre o vetor em busca do menor valor. Em seguida transfere-o para a posição esperada.
    O laço interno busca o menor valor, o laço externo posiciona-o conforme esperado e garante qu eo laço externo se repita a quantidade de vezes necessárias para buscar o próximo menor valor até que todos estejam ordenados.  
+   
+### shell_sort --> Algoritmo de ordenação derivado do Algoritmo de Inserção
+   Criado por Donald Shell em 1959, publicado pela Universidade de Cincinnati, Shellsort é o mais eficiente algoritmo de classificação dentre os de complexidade quadrática. É um refinamento do método de inserção direta. 
+   O algoritmo difere do método de inserção direta pelo fato de no lugar de considerar o array a ser ordenado como um único segmento, ele considera vários segmentos sendo aplicado o método de inserção direta em cada um deles. Basicamente o algoritmo passa várias vezes pela lista dividindo o grupo maior em menores. Nos grupos menores é aplicado o método da ordenação por inserção. 
