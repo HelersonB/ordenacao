@@ -17,3 +17,6 @@
    No metodo quick sort, um valor 'pivô' é escolhido como valor inicial para a ordenação (geralmente é escolhido o primeiro ou ultimo valor). A partir dele, os elementos são comparados entre si e irão trocar de lugar até
    'alcançarem' o pivô, onde serão organizados acima (maior) ou abaixo (menor) do que ele. Após a primeira execução, vão existir duas  partições - os valores menores e os valores maiores do que o pivô (que estará na sua
    posição correta). Recursivamente, serão escolhidos novos pivôs em ambos os lados até que todos os valores estejam ordenados.
+
+### shell_sort --> Extensão do algoritmo de ordenação por inserção
+   Criado por Donald Shell em 1959, publicado pela Universidade de Cincinnati, Shell sort é o mais eficiente algoritmo de classificação dentre os de complexidade quadrática. É um refinamento do método de inserção direta.  O algoritmo difere do método de inserção direta pelo fato de no lugar de considerar o array a ser ordenado como um único segmento, ele considera vários segmentos sendo aplicado o método de inserção direta em cada um deles.  Basicamente o algoritmo passa várias vezes pela lista dividindo o grupo maior em menores. Nos grupos menores é aplicado o método da ordenação por inserção.
